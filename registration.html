@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+</head>
+<body>
+<img src="kellton.png" /><!----------------------------------Header starts here ------------------------------------------->
+<span class="anchor"><a href="Home">Home</a></span>
+<span class="anchor"><a href="Home">Products</a></span>
+<span class="anchor"><a href="Home">Company</a></span>
+<span><a href="Home">Blog</a></span>
+
+<span class="rt"><input type="text" class="search" placeholder="Search" class="rt"  /></span><!----------------------------------Ends_here ------------------------------------------->
+
+	<h1 class="heading"> Online Registration </h1>
+<p>The University aspires to conduct Research and Development in diverse areas aiming to cover the full spectrum, from fundamental and theoretical studies, through research of relevance to business and industry with practice-based studies in Energy. We seek to support each research area with crosscutting functions, including industry partnerships, knowledge and technology transfer, analysis, and program integration. We aim towards developing quality research & development, spanning all three colleges, configured to provide the maximum of opportunities for various multidisciplinary areas.The Energy, Infrastructure & Transportation (EIT) sectors are taking centre stage in the developing and the developed countries making them the powerhouse economies in their continents.Centre for Continuing Education (CCE) at the University of Petroleum & Energy Studies (UPES), Dehradun, India, since 2007, offers itself as a Centre Of Excellence for accessing quality blended education through "Distance Learning ModeThe university helps innovative start-ups with incubation services like Networking Activities, Marketing Help, Training for Developing Presentation Skills, Links to Strategic Partners, Expert Advice, Broad Business Training Programs, and more. The Start-ups require a lot of understanding in terms of the industry growth pattern, competitors, problems, challenges, and other useful information. There for the university supports the young entrepreneurs by providing research based analytical insights.</p>
+
+<table cellpadding="10" class="decor"><!----------------------------------Table Starts here ------------------------------------------->
+<form action=" " method="POST" id="reg">
+ <tr>
+ <td>Title </td>
+ <td> <select name="opt" form="reg">
+    <option value="Mr">Mr.</option>
+ 	<option value="Mrs">Mrs.</option>
+ 	<option value="Miss">Miss.</option>
+ </select>
+</td>
+</tr>
+ <tr>
+ 	<!----------------------------------First_name ------------------------------------------->
+ 	<td >First Name </td> 
+ 	<td><input type="text" name="f_name" placeholder="First Name" /></td>
+ </tr>
+ <tr>
+ 	<!----------------------------------Last_name ------------------------------------------->
+ 	<td>Last Name </td> 
+ 	<td><input type="text"	name="l_name" placeholder="last Name" /></td>
+ </tr>
+ <tr>
+ 	<!----------------------------------D.O.B------------------------------------------->
+ 	<td>D.O.B </td>
+ 	<td><input type="date" name="dob"/></td>
+ </tr>
+ <tr><!----------------------------------Address ------------------------------------------->
+ 	<td>Full Address </td>
+ 	<td><textarea name="address" rows="4" cols="30"></textarea></td>
+ </tr>
+ <tr>
+ 	<td>Items You Want </td>
+ 	<td><textarea rows="4" cols="30">
+Item one
+Items Two
+Items Three</textarea></td>
+</tr>
+<tr>
+	<td>Choose One</td>
+	<td>
+		<input type="radio" name="choose" value="Choice1"> Choice One<br/>
+		<input type="radio" name="choose" value="Choice2"> Choice Two<br/>
+		<input type="radio" name="choose" value="Choice3"> Choice Three
+    </td>
+</tr>
+<tr>
+	<td>Increment Number</td>
+	<td ><input type="number" name="num" min="1" max="10000"/></td>
+</tr>
+<tr>
+  <td></td>
+  <td ><input type="checkbox" name="accept"/>Agree with Terms and Conditions
+  </td>
+</tr>
+<tr>
+ <td><input type="button" value="Submit" /></td>
+ <td><input type="button" value="Save draft"/></td>
+
+</tr>	
+</form>
+</table><!----------------------------------table ends here ------------------------------------------->
+
+</body>
+</html>
+
+<style>
+
+
+	.heading {
+		text-align: center;
+    	text-transform: uppercase;
+    	font-family: Comic Sans MS; 
+
+	}
+	.decor{
+		font-family: Comic Sans MS;
+		align:left;
+
+	}
+	select{
+		border:2px solid black;
+	}
+	input {
+		border: 2px solid black;
+	}
+	textarea{
+		border: 2px solid black;
+	}
+	.anchor{
+		text-decoration: underline;
+		display: inline;
+	    margin: 10px 10px ;
+	    padding-right: 10px;
+	    border-right: solid;
+        }
+	img {
+		width:80px;
+		height: 90px;
+		display: inline;
+	}
+   .rt{
+   display: inline;
+   margin-left: 1100px;
+   }
+   p {
+   	font-family: Comic Sans MS;
+   }
+</style>
